@@ -1,0 +1,12 @@
+{
+  "name": "common",
+  "private": false,
+  "devDependencies": {
+    "lerna": "^3.8.1"
+  },
+  "version": "1.0.0",
+  "description": "common tool",
+  "repository": "https://github.com/XXHolic/common.git",
+  "author": "thy <972143891@qq.com>",
+  "license": "MIT"
+}
