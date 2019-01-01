@@ -1,13 +1,23 @@
 {
-  "name": "@thy/canvas",
+  "name": "@thynpm/canvas",
   "version": "1.0.0",
   "description": "to fix canvas problem",
-  "repository": "https://github.com/XXHolic/common.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XXHolic/common.git"
+  },
   "main": "index.js",
   "license": "MIT",
   "keywords": [
     "canvas",
     "tool"
   ],
-  "gitHead": "aacf82bd2b8ff7532fc45f55a94e4ec3e1b99a26"
+  "bugs": {
+    "url": "https://github.com/XXHolic/common/issues"
+  },
+  "homepage": "https://github.com/XXHolic/common#readme",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "thy"
 }
