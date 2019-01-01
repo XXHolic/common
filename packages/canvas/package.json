@@ -1,8 +1,9 @@
 {
-  "name": "canvas",
+  "name": "@XXHolic/canvas",
   "version": "1.0.1",
   "description": "to fix canvas problem",
   "repository": "https://github.com/XXHolic/common.git",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "gitHead": "dde51710df01a848a86a53f98949375faa77f92f"
 }
