@@ -1,11 +1,11 @@
-var TOOL={};
+var Tool={};
 
 /**
  * judge device type(pc or phone)
  * return string
  * blog link:http://www.cnblogs.com/babycool/p/3583114.html
  */
-TOOL.getDeviceType = function() {
+Tool.getDeviceType = function() {
   var userAgent = navigator.userAgent.toLowerCase();
   var isIpad = userAgent.match(/ipad/i) == "ipad";
   var isIphoneOs = userAgent.match(/iphone os/i) == "iphone os";
@@ -26,7 +26,7 @@ TOOL.getDeviceType = function() {
  * 用于事件的处理
  * ie 不支持参数默认赋值，link:https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Functions/Default_parameters
  */
-TOOL.Event = {
+Tool.Event = {
   addHandler: function(element, type, handler, useCapturing) {
     if(element.addEventListener) {
       // IE9、Firefox、Safari、Chrome 和Opera 支持DOM2 级事件处理程序。
@@ -71,7 +71,7 @@ TOOL.Event = {
 }
 
 // 获取一个随机数字符串，用来做对比
-TOOL.getRandomNum = function(len) {
+Tool.getRandomNum = function(len) {
   var numString = String(Math.random());
   if (len) {
     return numString.substring(0,len);
@@ -79,3 +79,5 @@ TOOL.getRandomNum = function(len) {
     return numString;
   }
 }
+
+export default Tool;
