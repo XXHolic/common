@@ -1,6 +1,5 @@
 ;(function () {
   'use strict';
-  // canvas 各种处理
   var CANVAS = {
     // 处理显示模糊问题
     createElement: function(w=300,h=150) {
