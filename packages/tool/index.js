@@ -80,4 +80,8 @@ Tool.getRandomNum = function(len) {
   }
 }
 
+Tool.console = function(str) {
+  console.log(str);
+}
+
 export default Tool;
