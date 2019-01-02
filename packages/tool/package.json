@@ -1,0 +1,15 @@
+{
+  "name": "@thynpm/tool",
+  "version": "1.0.0",
+  "description": "This is common function.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tool",
+    "function"
+  ],
+  "author": "thy",
+  "license": "MIT"
+}
