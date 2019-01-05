@@ -1,0 +1,20 @@
+{
+  "name": "@thynpm/assist",
+  "version": "1.0.0",
+  "description": "test and explore",
+  "main": "index.js",
+  "repository": "https://github.com/XXHolic/common.git",
+  "author": "thy",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "webpack": "^4.28.3"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.2.3",
+    "@thynpm/tool": "^1.1.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5"
+  },
+  "browserslist": "> 0.25%, not dead"
+}
