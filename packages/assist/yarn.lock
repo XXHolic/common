@@ -518,9 +518,9 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@thynpm/tool@^1.1.0":
-  version "1.1.0"
-  resolved "http://registry.npm.taobao.org/@thynpm/tool/download/@thynpm/tool-1.1.0.tgz#50af546a5c3d2f0ae7d97b45d7272add852a417c"
+"@thynpm/tool@1.1.1":
+  version "1.1.1"
+  resolved "http://registry.npm.taobao.org/@thynpm/tool/download/@thynpm/tool-1.1.1.tgz#52f79dcc723b34214e45383d21a6dbdcf9f55a03"
 
 "@webassemblyjs/ast@1.7.11":
   version "1.7.11"
