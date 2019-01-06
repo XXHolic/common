@@ -102,4 +102,28 @@ Tool.getQueStr = function (ref) {
   return null;
 };
 
+Tool.updateStorage = function(key,data){
+  try{
+      localStorage.setItem(key, JSON.stringify(data));
+  }catch(e){
+      console.error('localStorage not supported');
+  }
+};
+Tool.getStorage = function(key){
+  var data = null;
+  try{
+      data = JSON.parse(localStorage.getItem(key));
+  }catch(e){
+      console.error('localStorage not supported');
+  }
+  return data;
+};
+Tool.clearStorage = function(key){
+  try{
+      localStorage.removeItem(key);
+  }catch(e){
+      console.error('localStorage not supported');
+  }
+};
+
 export default Tool;
