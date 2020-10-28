@@ -126,4 +126,8 @@ Tool.clearStorage = function(key){
   }
 };
 
+Tool.console = {
+
+}
+
 export default Tool;
