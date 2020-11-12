@@ -81,6 +81,9 @@
 
       var textHeightValue = rowCount < limitRow ? (textHeight + lineHeight): textHeight;
       return textHeightValue;
+    },
+    log: function(...args) {
+      console.log(...args)
     }
   }
 
