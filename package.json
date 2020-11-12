@@ -2,10 +2,18 @@
   "name": "common",
   "private": false,
   "devDependencies": {
-    "lerna": "^3.8.1"
+    "lerna": "^3.22.1"
   },
   "version": "1.0.0",
   "description": "common tool",
+  "scripts": {
+    "major": "lerna version major --no-push",
+    "minor": "lerna version minor --no-push",
+    "patch": "lerna version patch --no-push",
+    "bootstrap": "lerna bootstrap",
+    "publish": "lerna publish",
+    "updated": "lerna updated"
+  },
   "repository": "https://github.com/XXHolic/common.git",
   "author": "thy <972143891@qq.com>",
   "license": "MIT"

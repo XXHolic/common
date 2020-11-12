@@ -127,7 +127,9 @@ Tool.clearStorage = function(key){
 };
 
 Tool.console = {
-
+  log: function(...args) {
+    console.log(...args)
+  }
 }
 
 export default Tool;
