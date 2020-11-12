@@ -20,5 +20,7 @@
   "homepage": "https://github.com/XXHolic/common#readme",
   "author": "thy",
   "license": "MIT",
-  "gitHead": "f2de77463c1020a68c4e73abeeebea20df624e73"
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
 }

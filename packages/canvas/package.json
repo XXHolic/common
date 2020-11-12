@@ -19,5 +19,8 @@
   "scripts": {
     "test": "test"
   },
-  "author": "thy"
+  "author": "thy",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
 }

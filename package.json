@@ -7,9 +7,12 @@
   "version": "1.0.0",
   "description": "common tool",
   "scripts": {
-    "major": "lerna version major --no-push",
-    "minor": "lerna version minor --no-push",
-    "patch": "lerna version patch --no-push",
+    "major": "lerna version major",
+    "minor": "lerna version minor",
+    "patch": "lerna version patch",
+    "major1": "lerna version major --no-push",
+    "minor1": "lerna version minor --no-push",
+    "patch1": "lerna version patch --no-push",
     "bootstrap": "lerna bootstrap",
     "publish": "lerna publish",
     "updated": "lerna updated"
