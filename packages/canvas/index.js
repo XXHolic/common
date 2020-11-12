@@ -84,6 +84,9 @@
     },
     log: function(...args) {
       console.log(...args)
+    },
+    info: function(...args) {
+      console.info(...args)
     }
   }
 
