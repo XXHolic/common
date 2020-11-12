@@ -1,6 +1,6 @@
 {
   "name": "@thynpm/assist",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "test and explore",
   "main": "index.js",
   "repository": "https://github.com/XXHolic/common.git",
@@ -13,7 +13,7 @@
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
-    "@thynpm/tool": "^1.1.2",
+    "@thynpm/tool": "^1.1.4",
     "babel-core": "^6.26.3",
     "babel-loader": "^8.0.5",
     "webpack-cli": "^3.2.0"
