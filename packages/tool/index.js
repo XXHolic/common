@@ -132,6 +132,9 @@ Tool.console = {
   },
   info: function(...args) {
     console.info(...args)
+  },
+  warn: function(...args) {
+    console.warn(...args)
   }
 }
 
