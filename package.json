@@ -14,7 +14,8 @@
     "minor1": "lerna version minor --no-push",
     "patch1": "lerna version patch --no-push",
     "bootstrap": "lerna bootstrap",
-    "publish": "lerna publish",
+    "publish:push": "lerna publish",
+    "publish": "lerna publish --no-push",
     "updated": "lerna updated"
   },
   "repository": "https://github.com/XXHolic/common.git",
